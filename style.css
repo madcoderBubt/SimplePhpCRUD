@@ -1,0 +1,36 @@
+.center{
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: initial !important;
+}
+th{
+    background-color: antiquewhite;
+    color: black;
+}
+tr.bg{
+    background-color: aliceblue;
+}
+tr:hover{
+    background-color: lightcoral;
+    color: white;
+}
+th, td{
+    padding: 5px;
+    border: 1px solid black !important;
+}
+hr{
+    border: 1px solid gray;
+}
+input,select,textarea{
+    margin: 5px;
+    padding: 5px;
+}
+input[type=text],input[type=number],select,textarea{
+    width: 400px;
+    height: auto;
+    min-height: 20px;
+}

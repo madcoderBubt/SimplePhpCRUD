@@ -9,4 +9,10 @@ $dbCon = mysqli_connect($host, $userName, $pwd, $dbName);
 @define('categories',array(
 	"Book","Electronics","Food","Toys"
 ));
+@define('sortingArr',array(
+	"Default"=>"pId", 
+	"Name"=>"pName", 
+	"Price"=>"pUnitPrice", 
+	"category"=>"pCategory"
+));
 ?>
